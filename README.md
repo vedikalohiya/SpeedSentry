@@ -12,7 +12,7 @@ Welcome to SpeedSentry! This project is developed in Kotlin using Android Studio
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aditya19110/SpeedSentry
+   git clone https://github.com/vedikalohiya/SpeedSentry
    ```
 2. Open the project in Android Studio or VS Code.
 3. Make the necessary changes to fit your requirements.
@@ -21,6 +21,6 @@ Welcome to SpeedSentry! This project is developed in Kotlin using Android Studio
 We are open to contributions! Feel free to fork the repository, make changes, and submit pull requests.
 
 ## Team
-  - **Vedika Lohiya** [![LinkedIn](https://img.icons8.com/ios-filled/50/000000/linkedin.png)](https://www.linkedin.com/in/vedika2203/) [![Email](https://img.icons8.com/ios-filled/50/000000/email.png)](mailto:vedika.lohiya22@gmail.com)
+  - **Aditya Kulkarni** [![LinkedIn](https://img.icons8.com/ios-filled/50/000000/linkedin.png)](https://www.linkedin.com/in/aditya191103/) [![Email](https://img.icons8.com/ios-filled/50/000000/email.png)](mailto:kulkarniaditya262@gmail.com)
 
 Thank you for your interest and contributions!
