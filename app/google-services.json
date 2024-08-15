@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276520337079",
+    "project_id": "speedsentry-ffed1",
+    "storage_bucket": "speedsentry-ffed1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276520337079:android:82dd1c345bc456edc51732",
+        "android_client_info": {
+          "package_name": "com.example.speedsentry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGRzJD47tAFo6D8OqdOCgpQLTYUi-BZew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

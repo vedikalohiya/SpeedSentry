@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login">
+
+    <EditText
+        android:id="@+id/loginmail"
+        android:layout_width="279dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/text_border"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="279dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/text_border"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginmail" />
+
+    <ImageView
+        android:id="@+id/toggleLoginPassword"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="Toggle Password Visibility"
+        android:src="@drawable/ic_eye"
+        app:layout_constraintBottom_toBottomOf="@+id/loginpass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/loginpass"
+        app:layout_constraintTop_toBottomOf="@+id/loginmail"
+        app:layout_constraintVertical_bias="0.0"
+        app:tint="@color/white" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="154dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#99FFFFFF"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/signuptxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginpass"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/forgetpass"
+        android:layout_width="213dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#99FFFFFF"
+        android:text="Forget Password"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/signuptxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/signuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Not a User? Sign Up here."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
+        app:layout_constraintVertical_bias="0.333" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
