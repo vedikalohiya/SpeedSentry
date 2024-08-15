@@ -1,13 +1,13 @@
 # 🚗 SpeedSentry 🚗
 
 ## Overview
-Welcome to SpeedSentry! This project is developed in Kotlin using Android Studio. The application connects to a Wi-Fi module installed on vehicles to calculate and display the vehicle's speed in real-time. Based on the speed limit data from a maps database, the app rewards or deducts points accordingly. Additionally, it warns users three times using a bell module if the vehicle exceeds the speed limit, ensuring safer driving habits.
+Introducing SpeedSentry! This project, built with Kotlin in Android Studio, is designed to enhance road safety. The app connects to a Wi-Fi module installed in vehicles, allowing it to calculate and display the vehicle's speed in real time. By utilizing speed limit data from a map database, SpeedSentry either awards points or deducts them based on the driver's adherence to speed limits. Additionally, the app issues three warnings through a bell module if the vehicle surpasses the speed limit, promoting safer driving practices.
 
 ## Features
-- **📊 Real-time Speed Monitoring:** Calculates and displays the vehicle's speed in real-time.
-- **🔔 Speed Limit Alerts:** Warns users with a bell module if the vehicle exceeds the speed limit.
-- **🏆 Points System:** Rewards or deducts points based on adherence to speed limits.
-- **🗺️ Integration with Maps Database:** Uses speed limit data from maps to determine rewards and alerts.
+📊 Live Speed Tracking: Continuously monitors and displays the vehicle's speed in real-time.
+🔔 Speed Limit Warnings: Alerts drivers through a bell module when the speed limit is exceeded.
+🏆 Reward System: Allocates or deducts points depending on compliance with speed limits.
+🗺️ Maps Integration: Leverages speed limit information from a maps database to manage rewards and alerts.
 
 ## Installation
 1. Clone the repository:
